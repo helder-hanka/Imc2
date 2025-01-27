@@ -26,10 +26,10 @@ package metier;
 			return "Normal";
 		}
 		if(imc > 25 && calcImc() < 30) {
-			return "Surpoids";
+			return "Surpoids. \n Commencé à faire du sport";
 		}
 		if(imc > 30 && calcImc() < 40) {
-			return "Obésiteé modérée";
+			return "Obésiteé modérée. \n Attention faite du sport";
 		}
 		if(imc < 18.5); {
 			return "Maigre";
